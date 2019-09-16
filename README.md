@@ -31,10 +31,10 @@ well this needs a lot of work to be useable here is some of my ideas and road ma
 ##### - Use diffrent images while in "compose" and after the send button is pressed.
 ##### - Add tag "read" to sent mail once it was viewed by the target.
 ##### - Add option for proxy.
-##### - Add Oauth for the API.
+##### - Add Oauth for the API and get rid of that "somewhatsecurelol" param.
 
 #### PHP
-##### - Create custom 'secret' paramater. 
+##### - Create custom 'secret' paramater,  get rid of that "somewhatsecurelol" param. 
 ##### - Add option for user to use custom image.
 ##### - Alert user once updated.
 ##### - Add user view mode(no update DB + No alert.)
