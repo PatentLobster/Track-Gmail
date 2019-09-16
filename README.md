@@ -19,8 +19,9 @@ copy the `php` folder contents to your server, make sure to upload your own `sig
 make sure the www-data(or the user that runs PHP on your server has writing accsess to the folder).
 
 ###  TODO:
-well this needs a lot of work to be useable here is some of my ideas and road map, some of them probably won't see daylight while I try to work on others.
-
+well this needs a lot of work to be useable.
+here is some of my ideas and road map, some of them probably won't see daylight while I try to work on others.
+and the whole thing needs a rewrite either way :) 
 #### Script.Google
 ##### - Rewrite the GS code.
 ##### - Add an option to upload custom images.
