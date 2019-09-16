@@ -1,0 +1,54 @@
+{
+  "timeZone": "Asia/Jerusalem",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.action",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/gmail.addons.current.action.compose"
+  ],
+  "urlFetchWhitelist": [
+    "https://example.com/"
+  ],
+  "gmail": {
+    "name": "My Gmail  Tracking Add-on",
+    "logoUrl": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x.png",
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#00BCD4",
+    "authorizationCheckFunction": "get3PAuthorizationUrls",
+    "contextualTriggers": [{
+      "unconditional": {},
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "composeTrigger": {
+      "selectActions": [
+        {
+          "text": "Add images to email",
+          "runFunction": "getInsertImageComposeUI"
+        }
+      ],
+      "draftAccess": "METADATA"
+    },
+    "openLinkUrlPrefixes": [
+      "https://mail.google.com/",
+      "https://script.google.com/a/google.com/d/",
+      "https://drive.google.com/a/google.com/file/d/",
+      "https://en.wikipedia.org/wiki/",
+      "https://www.example.com/"
+    ],
+    "universalActions": [{
+      "text": "Open settings",
+      "runFunction": "getSettingsCard"
+     }, {
+      "text": "Open help page",
+      "openLink": "https://www.example.com/help"
+    }],
+    "useLocaleFromApp": true
+  }
+}
