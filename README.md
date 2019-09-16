@@ -12,7 +12,7 @@ The plugin calls to an external server that runs a simple PHP API, that has 3 fu
 ### How to setup ? 
 -Google:
 first you to create a new google script project on https://script.google.com
-then copy the files in the GS folder to your project, and make sure to modify the mainfest and the script code url's to match yours.
+then copy the files in the GS folder to your project, and make sure to modify the `appscript.json` and the script code `example.com` to match yours.
 
 -Self-hosted: 
 use the copy the api folder contents to your server, make sure to upload your own `signature.png` file.
