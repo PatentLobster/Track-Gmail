@@ -16,7 +16,7 @@ then copy the files from the `gs` folder to your project root, and make sure to 
 
 -Self-hosted: 
 copy the `php` folder contents to your server, make sure to upload your own `signature.png` file.
-make sure the www-data(or the user that runs PHP on your server has writing accsess to the folder).
+make sure the `www-data` user(or the user that runs PHP on your server) has writing accsess to the folder.
 
 ###  TODO:
 well this needs a lot of work to be useable.
