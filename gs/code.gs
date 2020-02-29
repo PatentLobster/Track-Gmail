@@ -1,30 +1,3 @@
-/** 
-* What My code does: 
-* 
-* Sends title, date, recevier addres to server
-*  ||||||||||||||||
-*  vvvvvvvvvvvvvvvv
-* Get custom Image url.
-*        ||||
-*        VVVV
-*        BUTT
-*         ||
-*         vV
-* Unfortenatly we can't get the draft subject.
-* So for now we will use the recipet address encoded in base64.
-* 
-* Todo : 
-* ******** use the recipet address encoded in base64.
-* ******** unify the url config.
-* -******* add a counter that counts how many times the image has renedered. ? ( if needed for the alert.)
-* -******* Alert the user once the message was read.
-* --****** Beutify + cleanup.
-* -----*** bypass that shitty proxy thingy. 
-* ---***** add auth for the token gen.
-* ----**** try to use diffrent images while in draft and when sent(after the button is pressed).
-* -------* OPEN SOURCE THAT SHIT!
-
-**/
 
 
 
